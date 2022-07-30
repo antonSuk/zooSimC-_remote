@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
     
     std::cin >> newstring;
     
-    std::cout << "nice to know it is: " <<newstring;
+    std::cout << "nice to know it is: " <<newstring << std::endl;
     
     return 0;
 }
