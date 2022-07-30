@@ -6,13 +6,18 @@
 //
 
 #include <iostream>
+#include <string>
 
 int main(int argc, const char * argv[]) {
-
-    std::cout << "Hello, welcome to the Zoo simulator!\n";
+    
+    std::string newstring;
+    
+    std::cout << "Hello, welcome to the Zoo simulator! Are you new?\n";
     
     
+    std::cin >> newstring;
     
+    std::cout << "nice to know it is: " <<newstring;
     
     return 0;
 }
